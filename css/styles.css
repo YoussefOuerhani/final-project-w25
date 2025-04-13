@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: auto;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 0;
+  padding: auto;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+nav ul {
+  list-style: none;
+  font-size: 23px;
+  padding: 1rem 0;
+  margin: 0;
+  display: flex;
+  gap: 0.8rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #000;
+}
+
+
+
+.products {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: 1fr; 
+}
+
+
+@media (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.details h1 {
+  font-size: 2.027rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.details .limited {
+  color: #222;
+  font-weight: 800;
+  font-size: 1.3rem;
+  
+}
+
+#about {
+  font-size: 1.2rem;
+  background-color: #f8fafc;
+  margin-top: 3rem;
+  padding: 20px
+}
+
+#about .columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 2rem;
+  margin: auto;
+}
+
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4a4a4a;
+}
+
+#testimonials {
+  background-color: #000000;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 3rem;
+}
+
+
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#testimonials .columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 2rem;
+  margin: auto;
+}
+
+
+#try-it {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#try-it h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#try-it .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#try-it .card {
+  background-color: #f8fafc;
+  border-radius: 1rem;
+  width: 240px;
+  text-align: center;
+}
+
+#try-it .card img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+#try-it .card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem;
+}
+
+#try-it .card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+
+
+#footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
